@@ -1,0 +1,31 @@
+
+
+nav{
+    
+   
+
+    .navbar-brand{
+        margin-left: 20px;
+    }
+   
+    .first-button{
+        outline: none !important;
+        border:0;
+        transform: none;
+        margin-right: auto;
+    }
+
+    li{
+        a{
+            color: $text;
+            &:hover{
+                color:$yellow;
+            }
+        }
+
+    }
+    
+
+
+    
+}

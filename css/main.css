@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7138,5 +7139,122 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+@font-face {
+  font-family: "Rollete";
+  src: url("/font/Rollete.ttf") format("truetype"); }
+
 body {
-  background-color: red; }
+  background-color: white;
+  color: #1A1A1A;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  outline: none; }
+
+html {
+  font-size: 1rem; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1.1rem; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.2rem; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 1.3rem; } }
+
+nav .navbar-brand {
+  margin-left: 20px; }
+
+nav .first-button {
+  outline: none !important;
+  border: 0;
+  transform: none;
+  margin-right: auto; }
+
+nav li a {
+  color: #1A1A1A; }
+  nav li a:hover {
+    color: #FEB32A; }
+
+.animated-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  outline: none; }
+
+.animated-icon span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+.animated-icon span {
+  background: white;
+  color: white; }
+
+.animated-icon span:nth-child(1) {
+  top: 0px; }
+
+.animated-icon span:nth-child(2) {
+  top: 10px; }
+
+.animated-icon span:nth-child(3) {
+  top: 20px; }
+
+.animated-icon.open span:nth-child(1) {
+  top: 11px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg); }
+
+.animated-icon.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px; }
+
+.animated-icon.open span:nth-child(3) {
+  top: 11px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg); }
+
+.jumbotron {
+  background-image: url("../images/hero_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  padding: 0;
+  margin: 0;
+  color: #1A1A1A; }
+
+.header {
+  background-color: transparent;
+  border-bottom: 3px solid white;
+  padding-top: 20px;
+  padding-bottom: 30px; }
