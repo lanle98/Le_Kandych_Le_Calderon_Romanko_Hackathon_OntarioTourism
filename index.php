@@ -1,12 +1,5 @@
 <?php
-
 require_once 'load.php';
-
-$pdo = Database::getInstance()->getConnection();
-$query = "SELECT * FROM tbl_users WHERE id=1";
-
-$results =  $pdo->query($query)->fetch(PDO::FETCH_ASSOC);
-echo $results['fname'];
 ?>
 
 
