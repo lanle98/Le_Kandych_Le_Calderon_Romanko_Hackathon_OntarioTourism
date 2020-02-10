@@ -25,7 +25,7 @@ echo $results['fname'];
 <body>
     <div id="app">
 
-        <router-link to="/about">About</router-link>
+        <router-link to="/register">About</router-link>
         <router-link to="/">Home</router-link>
         <transition name="route-animation" enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight">
             <router-view></router-view>
