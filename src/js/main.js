@@ -1,9 +1,9 @@
 console.log("linked vue");
 import Home from "./components/Home.js";
-import About from "./components/About.js";
+import Register from "./components/Register.js";
 
 const routes = [
-  { path: "/about", name: "About", component: About },
+  { path: "/register", name: "Register", component: Register },
   { path: "/", name: "Home", component: Home }
 ];
 
