@@ -69,7 +69,14 @@ $pdo = Database::getInstance()->getConnection();
             )
         );
 
-        echo "Thank you " . $fname;
+        $user_data_query = "SELECT * FROM tbl_users WHERE email= '$email'";
+        $get_data = $pdo->prepare($user_data_query);
+        $get_data->execute();
+        $fetch_user_data = $get_data->fetch(PDO::FETCH_ASSOC);
+
+        echo json_encode($fetch_user_data, JSON_PRETTY_PRINT);
+
+        
     }
     }
 
