@@ -6,6 +6,10 @@ label {
 
 form {
   background: rgba($color: #000000, $alpha: 0.3);
+
+  p{
+    color: $white;
+  }
 }
 
 input,
