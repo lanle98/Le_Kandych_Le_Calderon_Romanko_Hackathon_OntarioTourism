@@ -14,12 +14,12 @@ export default {
         </div>
   
 
-        <div class="col-md-5 d-flex flex-column mb-3">
+        <div class="col-md-6 d-flex flex-column mb-3">
             <label for="Email">Email</label>
             <input class="p-2" type="email" placeholder="Your Email Address" name="email" />
         </div>
 
-        <div class="col-md-5 d-flex flex-column mb-3">
+        <div class="col-md-6 d-flex flex-column mb-3">
           <label for="Country">Country</label>
           <select class="p-2" id="country" name="country" required>
               <option value="" disabled selected>Your Country</option>
