@@ -15,14 +15,7 @@ website. The HouseCom™ ThermoSecurity™ System App. is available on both iOS 
 ![Image description](public/images/mockup_desktop_full.png)
 
 
-## Getting started
-* Clone the Repo ```git clone```
-* Install NODE ``` npm install```
-* Open MAMP/WAMP
-* Go to MyPhpAdmin```-> create new database```
-* Import the database inside Database folder
-* In the Terminal run ``` npm start```
-* In the Browser go ``` localhost:3000```
+
 
 
 
@@ -31,9 +24,10 @@ website. The HouseCom™ ThermoSecurity™ System App. is available on both iOS 
 * **HTML5**
 * **SASS/CSS3**
 * **JavaScript**
-* **Node.js**
-* **Express**
+* **PHP**
+* **Vue.js**
 * **Gulp**
+* **Bootsrap**
 
 
 ## Workspace (development)
@@ -47,9 +41,9 @@ website. The HouseCom™ ThermoSecurity™ System App. is available on both iOS 
 * Adobe InDesign
 
 ## Authors
-* **Lan Le** -*Developer*
+* **Lan Le** -*Developer/Project Manager*
 * **Vira Romanko** -*Developer*
-* **Jimmy Calderon** -*Progect Manager*
+* **Jimmy Calderon** -*Motion Designer*
 * **Yuliia Kandych** -*Designer*
 * **Tien Le** -*Designer*
 
