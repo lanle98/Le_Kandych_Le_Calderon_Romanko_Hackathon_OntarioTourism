@@ -33,6 +33,14 @@ input {
 
 }
 
+.show{
+  display: block !important;
+}
+
+.hidden{
+  display: none;
+}
+
 //responsive font
 html {
     font-size: 1rem;
