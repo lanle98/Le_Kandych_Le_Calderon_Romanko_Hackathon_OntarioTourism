@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7308,3 +7309,47 @@ nav .align-middle {
   background-color: transparent;
   border-bottom: 3px solid white;
   padding-top: 20px; }
+
+@font-face {
+  font-family: "Rollete";
+  src: url("/font/Rollete.ttf") format("truetype"); }
+
+label {
+  color: white; }
+
+form {
+  background: rgba(0, 0, 0, 0.3); }
+
+input,
+select {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  width: 100%; }
+
+select option {
+  position: relative;
+  padding: 50px;
+  background: blue; }
+  select option ::after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent; }
+
+.btn {
+  max-width: 200px !important;
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white; }
+  .btn:hover {
+    background: white;
+    color: #000; }
+
+.register {
+  background: url(../../images/hero_register.jpg);
+  background-position: center; }
