@@ -39,8 +39,10 @@ export default {
         </div>
       
         <input @click.prevent="submitUserData" class="submit my-3 col-md-4 py-3 mx-auto btn" name="submit" value="Sign Up" type="submit" />
+
         <p class="col-12 text-center">{{message}}</p>
         
+
     </form>
     
   </div>
