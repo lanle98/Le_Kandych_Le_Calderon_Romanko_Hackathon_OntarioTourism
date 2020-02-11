@@ -66,13 +66,114 @@ require_once 'load.php';
 
             </div>
 
-
-
-
         </nav>
 
+
+        <!-- Navbar brand -->
+        <div class="jumbotron">
+
+
+            <h1 class="display-3 title">Ontario Summer</h1>
+            <h2 class="subtitle">Find yourself at home</h2>
+
+            <div class="bottom-line d-flex justify-content-between">
+                <div>
+                    <img src="/images/Location.svg" alt="location" /> <span>Toronto</span>
+                </div>
+
+                <img src="images/scroll_icon.svg" alt="scroll" class="scroll" />
+
+                <div class="social">
+
+                    <a class="social" href="#"><object data="images/instagram.svg" type="image/svg+xml"></object></a>
+                    <a class="social" href="#"><object data="images/facebook.svg" type="image/svg+xml"></object></a>
+                    <a class="social" href="#"><object data="images/twitter.svg" type="image/svg+xml"></object></a>
+                    <a class="social" href="#"><object data="images/youtube.svg" type="image/svg+xml"></object></a>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="home">
+            <p class="welcome-text text-left m-lg-5">
+                Everything in Canada inevitably leads back to Ontario. The country’s most populated province by a wide margin, one in three Canadians dwell within its borders, along with practically everything powerful and important. Among other landmarks, Ontario houses Canada’s parliament, its largest city, the national stock exchange, the country’s biggest university, the headquarters of virtually every major Canadian newspaper, television station, corporation, and bank, and — just to top it off — Canada’s tallest building and biggest waterfall, too.
+            </p>
+
+            <h2 class="text-center travel"> TRAVEL IDEAS</h2>
+            <div class="travel-ideas row  justify-content-center">
+
+                <div class="left col-12 col-md-5 m-3">
+                    <h3 class="m-0">
+                        Looking for the perfect advanture?
+                    </h3>
+                    <img src="/images/city.jpg" alt="city" class="city m-2 img-fluid" />
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="right col-12 col-md-5 m-3">
+
+
+                    <img src="/images/lakes.jpg" alt="cities" class="img-fluid" />
+                    <p>
+                        Ontario’s power comes at a price, however, and Canadians who live outside its borders will often regard it with a mixture of resentment and skepticism — surely they don’t deserve all that.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="event-section">
+            <h3 class="text-center">EVENTS</h3>
+            <div class="events row m-auto justify-content-center">
+
+                <div class="event col-12 col-md-3 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_1.jpg" alt="event">
+                    <h4>Art Exhibition</h4>
+                </div>
+
+                <div class="event col-12 col-md-3 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_2.jpg" alt="event">
+                    <h4>Running Races</h4>
+                </div>
+
+                <div class="event col-12 col-md-3 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_3.jpg" alt="event">
+                    <h4>Music Festivals</h4>
+                </div>
+
+                <div class="event col-12 col-md-3 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                    <h4>Street Food</h4>
+                </div>
+
+                <div class="event col-12 col-md-3 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                    <h4>Street Food</h4>
+                </div>
+
+                <div class="event col-12 col-md-3 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                    <h4>Street Food</h4>
+                </div>
+            </div>
+        </div>
+
+
         <div class="WhereToEat container">
-            <h2>Where To Eat</h2>
+            <h2 class="text-center">Where To Eat</h2>
 
             <div class="food row">
                 <div class="col-12 col-md-4 promo-text">
@@ -110,9 +211,6 @@ require_once 'load.php';
                     <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
                     <h4>Street Food</h4>
                 </div>
-
-
-
             </div>
         </div>
 
@@ -122,6 +220,12 @@ require_once 'load.php';
             </p>
             <input class="submit my-3 col-md-4 py-3 mx-auto btn" name="submit" value="Sign Up" type="submit" />
         </div>
+
+
+
+
+
+
 
         <footer class="text-center p-5">
             <img class="logo" src="images/Logo.svg" alt="logo">
