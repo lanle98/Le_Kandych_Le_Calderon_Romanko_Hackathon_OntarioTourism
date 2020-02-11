@@ -9,6 +9,14 @@ body{
     }
 }
 
+.show{
+  display: block !important;
+}
+
+.hidden{
+  display: none;
+}
+
 //responsive font
 html {
     font-size: 0.75rem;
