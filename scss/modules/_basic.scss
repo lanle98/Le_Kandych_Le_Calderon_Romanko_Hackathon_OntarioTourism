@@ -4,27 +4,66 @@ body{
     margin: 0;
     font-family: $font-one;
     outline: none;
+    span{
+        color: $white;
+    }
 }
 
 //responsive font
 html {
-    font-size: 1rem;
+    font-size: 0.75rem;
+    .jumbotron{
+        .subtitle{
+            font-size: 8vh;
+        }
+    }
   }
   
   @include media-breakpoint-up(sm) {
     html {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
+      .jumbotron{
+        .subtitle{
+            font-size: 10vh;
+        }
+    }
     }
   }
   
   @include media-breakpoint-up(md) {
     html {
       font-size: 1.2rem;
+      .jumbotron{
+        .subtitle{
+            font-size: 12vh;
+        }
+    }
     }
   }
   
   @include media-breakpoint-up(lg) {
     html {
       font-size: 1.3rem;
+.jumbotron{
+    .subtitle{
+        font-size: 15vh;
+    }
+}
+  
     }
   }
+
+
+  .welcome-text{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 35px;
+  }
+
+ .yellow-div{
+     width: 450px;
+     height: 550px;
+     background-color: $yellow;
+ }
+
+ 

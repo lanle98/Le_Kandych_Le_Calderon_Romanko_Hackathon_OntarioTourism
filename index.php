@@ -36,10 +36,10 @@ require_once 'load.php';
           <div class="header">
             <!-- Navbar brand -->
             <nav>
-    <a class="navbar-brand" href="#"><img src="images/Logo.svg" alt="logo"/></a>
+    <a class="navbar-brand ml-4" href="#"><img src="images/Logo.svg" alt="logo"/></a>
   
   <!-- Collapse button -->
-  <button class="navbar-toggler first-button mr-auto align-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+  <button class="navbar-toggler first-button float-right align-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
     aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
     <div class="animated-icon">
         <span></span>
@@ -52,7 +52,7 @@ require_once 'load.php';
   <div class="collapse navbar-collapse " id="navbarSupportedContent20">
 
     <!-- Links -->
-    <ul class="navbar-nav  mr-auto">
+    <ul class="navbar-nav  ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Travel Ideas <span class="sr-only">(current)</span></a>
       </li>
@@ -80,9 +80,57 @@ require_once 'load.php';
 
 
           </div>
+           <h1 class="title display-2">Ontario Summer</h1>
+           <h2 class="subtitle">Find yourself at home</h2>
 
+           <div class="bottom-line d-flex justify-content-between align-items-center ">
+               <div>
+               <img src="/images/Location.svg" alt="location" class="align-bottom"/>
+               <span class="align-bottom">Toronto</span>
+
+               </div>
+            
+            <img src="/images/scroll_icon.svg" alt="scroll" class="align-text-bottom scroll"/>
+            <div class="social align-bottom">
+            <a  href="#"><object data="/images/instagram.svg" type="image/svg+xml" class="img-fluid"></object></a>
+            <a  href="#"><object data="/images/facebook.svg" type="image/svg+xml" class="img-fluid"></object></a>
+            <a  href="#"><object data="/images/twitter.svg" type="image/svg+xml" class="img-fluid"></object></a>
+            <a  href="#"><object data="/images/youtube.svg" type="image/svg+xml" class="img-fluid"></object></a>
+            
+            </div>
 
         </div>
+
+        
+
+        </div>
+          
+        <p class="welcome-text text-left m-lg-5">
+        Everything in Canada inevitably leads back to Ontario. The country’s most populated province by a wide margin, one in three Canadians dwell within its borders, along with practically everything powerful and important. Among other landmarks, Ontario houses Canada’s parliament, its largest city, the national stock exchange, the country’s biggest university, the headquarters of virtually every major Canadian newspaper, television station, corporation, and bank, and — just to top it off — Canada’s tallest building and biggest waterfall, too.
+        </p>
+        <div class="travel-ideas display">
+            <h2 class="text-center"> TRAVEL IDEAS</h2>
+            <div>
+                <h2>
+                    Looking for the perfect advanture?
+                </h2>
+                   <div class="yellow-div position-relavite"></div>
+                   <img src="/images/lakes.jpg" alt="cities" class="position-absolute image-fluid"/>
+
+            </div>
+
+            <div>
+                
+                   <div class="yellow-div position-relavite"></div>
+                   <img src="/images/lakes.jpg" alt="cities" class="position-absolute image-fluid"/>
+                   <p>
+                   Ontario’s power comes at a price, however, and Canadians who live outside its borders will often regard it with a mixture of resentment and skepticism — surely they don’t deserve all that.
+               </p>
+
+            </div>
+
+        </div>
+       
             <router-view></router-view>
         
 

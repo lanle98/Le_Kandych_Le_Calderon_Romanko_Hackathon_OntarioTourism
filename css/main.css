@@ -7149,35 +7149,61 @@ body {
   margin: 0;
   font-family: "Raleway", sans-serif;
   outline: none; }
+  body span {
+    color: white; }
 
 html {
-  font-size: 1rem; }
+  font-size: 0.75rem; }
+  html .jumbotron .subtitle {
+    font-size: 8vh; }
 
 @media (min-width: 576px) {
   html {
-    font-size: 1.1rem; } }
+    font-size: 1.3rem; }
+    html .jumbotron .subtitle {
+      font-size: 10vh; } }
 
 @media (min-width: 768px) {
   html {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+    html .jumbotron .subtitle {
+      font-size: 12vh; } }
 
 @media (min-width: 992px) {
   html {
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+    html .jumbotron .subtitle {
+      font-size: 15vh; } }
 
-nav .navbar-brand {
-  margin-left: 20px; }
+.welcome-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 35px; }
+
+.yellow-div {
+  width: 450px;
+  height: 550px;
+  background-color: #FEB32A; }
+
+nav .navbar-nav {
+  margin-right: auto; }
 
 nav .first-button {
   outline: none !important;
   border: 0;
   transform: none;
-  margin-right: auto; }
+  margin-top: 30px; }
 
 nav li a {
   color: #1A1A1A; }
   nav li a:hover {
     color: #FEB32A; }
+
+nav ul {
+  background: rgba(255, 255, 255, 0.5); }
+
+nav .align-middle {
+  padding-top: 5px; }
 
 .animated-icon {
   width: 30px;
@@ -7252,9 +7278,26 @@ nav li a {
   padding: 0;
   margin: 0;
   color: #1A1A1A; }
+  .jumbotron .title {
+    font-weight: 600;
+    margin-top: 180px;
+    color: white;
+    margin-left: 80px; }
+  .jumbotron .subtitle {
+    font-family: "Rollete";
+    font-size: 15vh;
+    color: white;
+    text-align: center; }
+  .jumbotron .bottom-line {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px; }
+    .jumbotron .bottom-line .scroll {
+      margin-left: 50px; }
+    .jumbotron .bottom-line .social a {
+      padding: 3px; }
 
 .header {
   background-color: transparent;
   border-bottom: 3px solid white;
-  padding-top: 20px;
-  padding-bottom: 30px; }
+  padding-top: 20px; }
