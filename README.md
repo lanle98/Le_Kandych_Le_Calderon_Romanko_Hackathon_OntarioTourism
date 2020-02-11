@@ -1,18 +1,16 @@
 # Ontario Summer
 
 ## Find yourself home
-This is a project to attract tourists from all over the world to visit Ontario Over the Summer
-![Image description](public/images/white_background_img01.jpg)
+
+![Image description](/images/mockup_website.jpg)
+
+This is a project to attract tourists from all over the world to visit Ontario Over the Summer.
+![Image description](/images/mockup_1.jpg)
 
 
-## How it works?
 
-HouseCom™ ThermoSecurity™ System is a fully digital, hardwired and wireless (WiFi, Bluetooth)
-enabled home personal and secure environment control system . All communications with the central
-system are accessible and controlled through the wall unit, product app. and the secured portal on the parent
-website. The HouseCom™ ThermoSecurity™ System App. is available on both iOS and Android devices.
 
-![Image description](public/images/mockup_desktop_full.png)
+
 
 
 
