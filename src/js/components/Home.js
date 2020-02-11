@@ -1,4 +1,5 @@
 
+
 import GoComponent from "./GoComponent.js";
 import EatComponent from "./EatComponent.js";
 import EventComponent from "./EventComponent.js";
