@@ -60,12 +60,7 @@ html {
   margin-top: 35px;
   }
 
- .yellow-div{
-     width: 450px;
-     height: 550px;
-     background: url("/images/yellow-box.svg");
-     position:relative;
- }
+
 
 
  .where-to-go{
@@ -73,6 +68,31 @@ html {
    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 50px;
+  
+ }
+
+ .travel-ideas{
+   h4{
+     margin-top: 30px;
+   }
+   h3{
+     margin-top: 20px;
+     margin-left: 30px;
+     margin-bottom: -50px;
+   }
+   margin-top: 50px;
+   .city{
+     margin-top: 150px;
+   }
+
+   .right{
+     margin-left:50px;
+   }
+ }
+
+ .travel{
+   margin-top: 50px;
  }
 
 
