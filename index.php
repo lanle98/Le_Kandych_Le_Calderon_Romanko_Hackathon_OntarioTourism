@@ -65,90 +65,35 @@ require_once 'load.php';
 
             </div>
 
-
-            <!-- Navbar brand -->
-            <nav>
-                <a class="navbar-brand" href="/"><img src="images/Logo.svg" alt="logo" /></a>
+        </nav>
 
 
+        <!-- Navbar brand -->
+        <div class="jumbotron">
 
-            </nav>
 
-            <div class="WhereToEat container">
-                <h2>Where To Eat</h2>
+            <h1 class="display-3 title">Ontario Summer</h1>
+            <h2 class="subtitle">Find yourself at home</h2>
 
-                <div class="food row">
-                    <div class="col-12 col-md-4 promo-text">
-                        <h4 class="col-12 p-0">Best Food Ever</h4>
-                        <p>Good nutrition is an important part of leading a healthy lifestyle.</p>
-                    </div>
-                    <img src="images/food/food_1.jpg" class="food-1 col-12 p-3 col-md-4" alt="food">
-                    <img src="images/food/food_2.jpg" class="food-2 col-12 p-3 col-md-4" alt="food">
-                    <img src="images/food/food_3.jpg" class="food-3 col-12 p-3 col-md-4" alt="food">
-                    <p class="col-12 col-md-4 good-nutrition">Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases </p>
+            <div class="bottom-line d-flex justify-content-between">
+                <div>
+                    <img src="/images/Location.svg" alt="location" /> <span>Toronto</span>
+                </div>
+
+                <img src="images/scroll_icon.svg" alt="scroll" class="scroll" />
+
+                <div class="social">
+
+                    <a class="social" href="#"><object data="images/instagram.svg" type="image/svg+xml"></object></a>
+                    <a class="social" href="#"><object data="images/facebook.svg" type="image/svg+xml"></object></a>
+                    <a class="social" href="#"><object data="images/twitter.svg" type="image/svg+xml"></object></a>
+                    <a class="social" href="#"><object data="images/youtube.svg" type="image/svg+xml"></object></a>
+
+
                 </div>
 
             </div>
-
-            <div class="event-section">
-                <h3 class="text-center">EVENTS</h3>
-                <div class="events row m-auto justify-content-center">
-
-                    <div class="event col-12 col-md-5 p-0 m-2">
-                        <img class="img-fluid" src="images/events/event_1.jpg" alt="event">
-                        <h4>Art Exhibition</h4>
-                    </div>
-
-                    <div class="event col-12 col-md-5 p-0 m-2">
-                        <img class="img-fluid" src="images/events/event_2.jpg" alt="event">
-                        <h4>Running Races</h4>
-                    </div>
-
-                    <div class="event col-12 col-md-5 p-0 m-2">
-                        <img class="img-fluid" src="images/events/event_3.jpg" alt="event">
-                        <h4>Music Festivals</h4>
-                    </div>
-
-                    <div class="event col-12 col-md-5 p-0 m-2">
-                        <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
-                        <h4>Street Food</h4>
-                    </div>
-                </div>
-
-                <div class="newsletter text-center m-5">
-                    <h3>SIGN UP FOR OUR NEWSLETTER</h3>
-                    <p>Stay connected with the latest stories and experiences from Ontario. By signing up for this newsletter, you are agreeing to the terms of the Privacy Policy.
-                    </p>
-                    <input class="submit my-3 col-md-4 py-3 mx-auto btn" name="submit" value="Sign Up" type="submit" />
-                </div>
-
-
-                <div class="jumbotron">
-
-
-                    <h1 class="display-3 title">Ontario Summer</h1>
-                    <h2 class="subtitle">Find yourself at home</h2>
-
-                    <div class="bottom-line d-flex justify-content-between">
-                        <div>
-                            <img src="/images/Location.svg" alt="location" /> <span>Toronto</span>
-                        </div>
-
-                        <img src="images/scroll_icon.svg" alt="scroll" class="scroll" />
-
-                        <div class="social">
-
-                            <a class="social" href="#"><object data="images/instagram.svg" type="image/svg+xml"></object></a>
-                            <a class="social" href="#"><object data="images/facebook.svg" type="image/svg+xml"></object></a>
-                            <a class="social" href="#"><object data="images/twitter.svg" type="image/svg+xml"></object></a>
-                            <a class="social" href="#"><object data="images/youtube.svg" type="image/svg+xml"></object></a>
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+        </div>
     </div>
 
     <div class="home">
@@ -164,73 +109,149 @@ require_once 'load.php';
                     Looking for the perfect advanture?
                 </h3>
                 <img src="/images/city.jpg" alt="city" class="city m-2 img-fluid" />
-
-
-
-                <footer class="text-center p-5">
-                    <img class="logo" src="images/Logo.svg" alt="logo">
-
-                    <ul class="navbar-nav  mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Travel Ideas <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Where to go</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Where to eat</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link" to="/register">Sign up</router-link>
-                        </li>
-                    </ul>
-                    <p>© 2020 Ontario Summer. All Rights Reserved.</p>
-                </footer>
+            </div>
 
 
 
 
 
 
-                <div class="right col-12 col-md-5 m-3">
 
 
-                    <img src="/images/lakes.jpg" alt="cities" class="img-fluid" />
-                    <p>
-                        Ontario’s power comes at a price, however, and Canadians who live outside its borders will often regard it with a mixture of resentment and skepticism — surely they don’t deserve all that.
-                    </p>
+
+            <div class="right col-12 col-md-5 m-3">
 
 
-                </div>
+                <img src="/images/lakes.jpg" alt="cities" class="img-fluid" />
+                <p>
+                    Ontario’s power comes at a price, however, and Canadians who live outside its borders will often regard it with a mixture of resentment and skepticism — surely they don’t deserve all that.
+                </p>
+
 
             </div>
 
         </div>
+
+    </div>
+
+    <div class="event-section">
+        <h3 class="text-center">EVENTS</h3>
+        <div class="events row m-auto justify-content-center">
+
+            <div class="event col-12 col-md-3 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_1.jpg" alt="event">
+                <h4>Art Exhibition</h4>
+            </div>
+
+            <div class="event col-12 col-md-3 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_2.jpg" alt="event">
+                <h4>Running Races</h4>
+            </div>
+
+            <div class="event col-12 col-md-3 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_3.jpg" alt="event">
+                <h4>Music Festivals</h4>
+            </div>
+
+            <div class="event col-12 col-md-3 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                <h4>Street Food</h4>
+            </div>
+
+            <div class="event col-12 col-md-3 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                <h4>Street Food</h4>
+            </div>
+
+            <div class="event col-12 col-md-3 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                <h4>Street Food</h4>
+            </div>
+        </div>
     </div>
 
 
-    <div class="where-to-go align-items-center ">
+    <div class="WhereToEat container">
+        <h2 class="text-center">Where To Eat</h2>
 
-        <h2 class="text-center">Where to go</h2>
-
-        <!-- <div class="where-img d-flex flex-wrap text-center">
-       <div class=""
-       <img class="img-fluid" src="/images/where_1.jpg" alt="1"/>
-       <img  class="img-fluid"src="/images/where_2.jpg" alt="2"/>
-       <img  class="img-fluid"src="/images/where_3.jpg" alt="3"/>
-       <img  class="img-fluid"src="/images/where_4.jpg" alt="4"/>
-       <img  class="img-fluid"src="/images/where_5.jpg" alt="5"/>
-       <img  class="img-fluid"src="/images/where_6.jpg" alt="6"/>
-      
-
-
-
-   </div> -->
+        <div class="food row">
+            <div class="col-12 col-md-4 promo-text">
+                <h4 class="col-12 p-0">Best Food Ever</h4>
+                <p>Good nutrition is an important part of leading a healthy lifestyle.</p>
+            </div>
+            <img src="images/food/food_1.jpg" class="food-1 col-12 p-3 col-md-4" alt="food">
+            <img src="images/food/food_2.jpg" class="food-2 col-12 p-3 col-md-4" alt="food">
+            <img src="images/food/food_3.jpg" class="food-3 col-12 p-3 col-md-4" alt="food">
+            <p class="col-12 col-md-4 good-nutrition">Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases </p>
+        </div>
 
     </div>
+
+    <div class="event-section">
+        <h3 class="text-center">EVENTS</h3>
+        <div class="events row m-auto justify-content-center">
+
+            <div class="event col-12 col-md-5 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_1.jpg" alt="event">
+                <h4>Art Exhibition</h4>
+            </div>
+
+            <div class="event col-12 col-md-5 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_2.jpg" alt="event">
+                <h4>Running Races</h4>
+            </div>
+
+            <div class="event col-12 col-md-5 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_3.jpg" alt="event">
+                <h4>Music Festivals</h4>
+            </div>
+
+            <div class="event col-12 col-md-5 p-0 m-2">
+                <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                <h4>Street Food</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter text-center m-5">
+        <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+        <p>Stay connected with the latest stories and experiences from Ontario. By signing up for this newsletter, you are agreeing to the terms of the Privacy Policy.
+        </p>
+        <input class="submit my-3 col-md-4 py-3 mx-auto btn" name="submit" value="Sign Up" type="submit" />
+    </div>
+
+
+
+    </div>
+
+
+
+    <footer class="text-center p-5">
+        <img class="logo" src="images/Logo.svg" alt="logo">
+
+        <ul class="navbar-nav  mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Travel Ideas <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Where to go</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Where to eat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+                <router-link class="nav-link" to="/register">Sign up</router-link>
+            </li>
+        </ul>
+        <p>© 2020 Ontario Summer. All Rights Reserved.</p>
+    </footer>
+
+
+
+
 
 
 
