@@ -5,13 +5,12 @@ require_once '../load.php';
 
 
 date_default_timezone_set('EST');
-echo date("Y/m/d h:i:s");
 
 $pdo = Database::getInstance()->getConnection();
 
 
 
-if (isset($_POST["submit"])) {
+
     $fname = ucfirst($_POST["fname"]);
     $lname = ucfirst($_POST["lname"]);
     $email = trim($_POST["email"]);
@@ -19,10 +18,15 @@ if (isset($_POST["submit"])) {
     $subscribe_date = date("Y/m/d h:i:s");
     $last_update_date = date("Y/m/d h:i:s");
 
-    $match_query = "SELECT * FROM tbl_users WHERE email=:email";
+    if (empty($fname) || empty($lname) || empty($email) || empty($country)) {
+        $message = "error";
+        echo json_encode($message, JSON_PRETTY_PRINT);
+    }
+    else{
+        $match_query = "SELECT * FROM tbl_users WHERE email=:email";
 
-    $match_check = $pdo->prepare($match_query);
-    $match_check->execute(
+        $match_check = $pdo->prepare($match_query);
+        $match_check->execute(
         array(
 
             ':email' => $email
@@ -43,8 +47,13 @@ if (isset($_POST["submit"])) {
             )
         );
 
+        $user_data_query = "SELECT * FROM tbl_users WHERE email= '$email'";
+        $get_data = $pdo->prepare($user_data_query);
+        $get_data->execute();
+        $fetch_user_data = $get_data->fetch(PDO::FETCH_ASSOC);
 
-        echo "Welcome back $fname";
+        echo json_encode($fetch_user_data, JSON_PRETTY_PRINT);
+
     } else {
         $register_query = "INSERT INTO tbl_users (fname,lname,email,country,subscribe_date,last_update_date) VALUES(:fname,:lname,:email,:country,:subscribe_date,:last_update_date);";
 
@@ -62,4 +71,7 @@ if (isset($_POST["submit"])) {
 
         echo "Thank you " . $fname;
     }
-}
+    }
+
+    
+
