@@ -1,18 +1,45 @@
-.jumbotron{
-    background-image: url('../images/hero_1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 110vh;
-    padding: 0;
-    margin: 0;
-    color:$text;
+.jumbotron {
+  // background-image: url('../images/hero_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   height: 110vh;
+  padding: 0;
+  margin: 0;
+  color: $text;
+
+  .title {
+    font-weight: 600;
+    margin-top: 180px;
+    color: $white;
+    margin-left: 80px;
+  }
+  .subtitle {
+    font-family: $font-two;
+    font-size: 15vh;
+    color: $white;
+    text-align: center;
+  }
+  .bottom-line {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    .scroll {
+      margin-left: 50px;
+    }
+
+    .social {
+      a {
+        padding: 3px;
+      }
+    }
+  }
 }
 
+.header {
+  background-color: transparent;
+  border-bottom: 3px solid $white;
+  padding-top: 20px;
 
-.header{
-    background-color: transparent;
-    border-bottom: 3px solid $white;
-    padding-top:20px;
-    padding-bottom: 30px;
+  // padding-bottom: 30px;
 }

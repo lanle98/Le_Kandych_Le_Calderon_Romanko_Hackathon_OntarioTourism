@@ -1,0 +1,35 @@
+img {
+  object-fit: contain;
+}
+
+.food {
+  position: relative;
+}
+
+.food-1,
+.food-3 {
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .food {
+    .promo-text {
+      position: absolute;
+      top: 10%;
+    }
+  }
+
+  .food-1 {
+    top: 120px;
+  }
+
+  .food-3 {
+    bottom: 120px;
+  }
+
+  .good-nutrition {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

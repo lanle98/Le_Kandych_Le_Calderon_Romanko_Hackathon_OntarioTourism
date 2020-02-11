@@ -25,64 +25,136 @@ require_once 'load.php';
         <router-link to="/">Home</router-link> -->
         <!-- <transition name="route-animation" enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight"> -->
 
-        <div class="jumbotron">
 
-            <div class="header">
-                <!-- Navbar brand -->
-                <nav>
-                    <a class="navbar-brand" href="#"><img src="images/Logo.svg" alt="logo" /></a>
+        <!-- Navbar brand -->
+        <nav>
+            <a class="navbar-brand" href="/"><img src="images/Logo.svg" alt="logo" /></a>
 
-                    <!-- Collapse button -->
-                    <button class="navbar-toggler first-button mr-auto align-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="animated-icon">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </button>
+            <!-- Collapse button -->
+            <div class="navbar-toggler first-button mr-auto align-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
 
-                    <!-- Collapsible content -->
-                    <div class="collapse navbar-collapse " id="navbarSupportedContent20">
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent20">
 
-                        <!-- Links -->
-                        <ul class="navbar-nav  mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Travel Ideas <span class="sr-only">(current)</span></a>
-                            </li>
+                <!-- Links -->
+                <ul class="navbar-nav  mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Travel Ideas <span class="sr-only">(current)</span></a>
+                    </li>
 
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Where to go</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Where to eat</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/register">Sign up</router-link>
-                            </li>
-                        </ul>
-                        <!-- Links -->
-
-                    </div>
-
-
-                </nav>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Where to go</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Where to eat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/register">Sign up</router-link>
+                    </li>
+                </ul>
+                <!-- Links -->
 
             </div>
 
 
+
+
+        </nav>
+
+        <div class="WhereToEat container">
+            <h2>Where To Eat</h2>
+
+            <div class="food row">
+                <div class="col-12 col-md-4 promo-text">
+                    <h4 class="col-12 p-0">Best Food Ever</h4>
+                    <p>Good nutrition is an important part of leading a healthy lifestyle.</p>
+                </div>
+                <img src="images/food/food_1.jpg" class="food-1 col-12 p-3 col-md-4" alt="food">
+                <img src="images/food/food_2.jpg" class="food-2 col-12 p-3 col-md-4" alt="food">
+                <img src="images/food/food_3.jpg" class="food-3 col-12 p-3 col-md-4" alt="food">
+                <p class="col-12 col-md-4 good-nutrition">Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases </p>
+            </div>
+
         </div>
+
+        <div class="event-section">
+            <h3 class="text-center">EVENTS</h3>
+            <div class="events row m-auto justify-content-center">
+
+                <div class="event col-12 col-md-5 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_1.jpg" alt="event">
+                    <h4>Art Exhibition</h4>
+                </div>
+
+                <div class="event col-12 col-md-5 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_2.jpg" alt="event">
+                    <h4>Running Races</h4>
+                </div>
+
+                <div class="event col-12 col-md-5 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_3.jpg" alt="event">
+                    <h4>Music Festivals</h4>
+                </div>
+
+                <div class="event col-12 col-md-5 p-0 m-2">
+                    <img class="img-fluid" src="images/events/event_4.jpg" alt="event">
+                    <h4>Street Food</h4>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="newsletter text-center m-5">
+            <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+            <p>Stay connected with the latest stories and experiences from Ontario. By signing up for this newsletter, you are agreeing to the terms of the Privacy Policy.
+            </p>
+            <input class="submit my-3 col-md-4 py-3 mx-auto btn" name="submit" value="Sign Up" type="submit" />
+        </div>
+
+        <footer class="text-center p-5">
+            <img class="logo" src="images/Logo.svg" alt="logo">
+
+            <ul class="navbar-nav  mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Travel Ideas <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Where to go</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Where to eat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <router-link class="nav-link" to="/register">Sign up</router-link>
+                </li>
+            </ul>
+            <p>© 2020 Ontario Summer. All Rights Reserved.</p>
+        </footer>
+
+
+
+
+
+
+
         <router-view></router-view>
-
-
-
-
-
     </div>
+
 
 
 

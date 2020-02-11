@@ -1,0 +1,13 @@
+@import "./vars";
+
+footer {
+  background: grey;
+
+  a {
+    color: $white !important;
+  }
+
+  p {
+    color: $white;
+  }
+}
