@@ -1,5 +1,13 @@
-<svg id="_043-facebook-1" data-name="043-facebook-1" xmlns="http://www.w3.org/2000/svg" width="12.915" height="25.83" viewBox="0 0 12.915 25.83">
+<svg id="icon_2" data-name="043-facebook-1" xmlns="http://www.w3.org/2000/svg" width="12.915" height="25.83" viewBox="0 0 12.915 25.83">
+
+<style type="text/css">
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+
+  #icon_2:hover .st1{
+    cursor:pointer !important;
+    fill:#FEB32A !important;}
+</style>
   <g id="Group_33" data-name="Group 33" transform="translate(0)">
-    <path id="Path_24" data-name="Path 24" d="M136.072,8.879V5.65a1.615,1.615,0,0,1,1.614-1.614H139.3V0h-3.229a4.843,4.843,0,0,0-4.843,4.843V8.879H128v4.036h3.229V25.83h4.843V12.915H139.3l1.614-4.036Z" transform="translate(-128)" fill="rgba(255,255,255,0.8)"/>
+    <path class="st1" id="Path_24" data-name="Path 24" d="M136.072,8.879V5.65a1.615,1.615,0,0,1,1.614-1.614H139.3V0h-3.229a4.843,4.843,0,0,0-4.843,4.843V8.879H128v4.036h3.229V25.83h4.843V12.915H139.3l1.614-4.036Z" transform="translate(-128)" fill="rgba(255,255,255,0.8)" />
   </g>
 </svg>
