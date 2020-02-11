@@ -7183,7 +7183,14 @@ html {
 .yellow-div {
   width: 450px;
   height: 550px;
-  background-color: #FEB32A; }
+  background: url("/images/yellow-box.svg");
+  position: relative; }
+
+.where-to-go {
+  background: url("/images/where.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 nav .navbar-nav {
   margin-right: auto; }
