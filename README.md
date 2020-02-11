@@ -1,7 +1,7 @@
 # Ontario Summer
 
-## It doen't cost. It saves.
-ThermoSecurity is a home automation service that is specifically designed to control smart home accessories ( temperature, lights, switches, cameras, etc.) and keep users informed about what’s happening around their property even when they’re away. Users can easily manage their smart ThermoSecurity devices via the HouseCom website,  iOS or Android app or smartwatch. 
+## Find yourself home
+This is a project to attract tourists from all over the world to visit Ontario Over the Summer
 ![Image description](public/images/white_background_img01.jpg)
 
 
