@@ -2,10 +2,17 @@
 
 footer {
   background: grey;
+li{
 
   a {
-    color: $white !important;
+    color: $white;
+    &:hover{
+      color:$yellow;
+    }
   }
+
+}
+  
 
   p {
     color: $white;
